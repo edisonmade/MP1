@@ -1,4 +1,5 @@
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
@@ -109,9 +110,8 @@ public class MyStackTest {
 	}
 
 	@Test
-	public void failingTest() {
-    assertTrue(false);
-}
-
-
+	public void failingTest() 
+	{
+    	assertTrue(false);
+	}
 }

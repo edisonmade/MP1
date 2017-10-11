@@ -11,6 +11,9 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
+	<exec dir="~/" executable="~/build.sh" spawn="true">
+       <arg value="-c default"/>
+	</exec>
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
