@@ -29,7 +29,7 @@ public class MyStackTest {
 	{
 		MyStack<String> stack = new MyStack<String>();
 		stack.push("Bo");
-		stack.push("wang")
+		stack.push("wang");
 		assertEquals(stack.peek(),"wang");
 	}
 
@@ -83,7 +83,7 @@ public class MyStackTest {
 	}
 
 	@Test
-	public void testPop()
+	public void testPop1()
 	{
 		MyStack <String> stack = new MyStack<String>();
 		stack.push("bo");
