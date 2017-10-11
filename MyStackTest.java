@@ -108,5 +108,10 @@ public class MyStackTest {
 		assertEquals(stack.size(), 0);
 	}
 
+	@Test
+	public void failingTest() {
+    assertTrue(false);
+}
+
 
 }
